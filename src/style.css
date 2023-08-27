@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body * {
+    width: 1440px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.navbar-menu{   
+    margin-right: 200px;
+    text-align: right;
+}
+
+.navbar-menu a {
+    color: gray;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+    color: black; 
+}
+
+.icon-search{
+    background: linear-gradient(89.99deg,#D05047 -0.01%,#E56545 103.2%),#D05047;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxNiAxNiIKc3R5bGU9ImZpbGw6I0ZGRkZGRjsiPgo8cGF0aCBkPSJNIDEwLjUgMSBDIDguMDE5NTMxIDEgNiAzLjAxOTUzMSA2IDUuNSBDIDYgNi41NTg1OTQgNi4zODI4MTMgNy41MjM0MzggNyA4LjI5Mjk2OSBMIDIuMDIzNDM4IDEzLjI2OTUzMSBMIDIuNzI2NTYzIDEzLjk4MDQ2OSBMIDcuNzA3MDMxIDkgQyA4LjQ3NjU2MyA5LjYxNzE4OCA5LjQ0MTQwNiAxMCAxMC41IDEwIEMgMTIuOTgwNDY5IDEwIDE1IDcuOTgwNDY5IDE1IDUuNSBDIDE1IDMuMDE5NTMxIDEyLjk4MDQ2OSAxIDEwLjUgMSBaIE0gMTAuNSAyIEMgMTIuNDM3NSAyIDE0IDMuNTYyNSAxNCA1LjUgQyAxNCA3LjQzNzUgMTIuNDM3NSA5IDEwLjUgOSBDIDguNTYyNSA5IDcgNy40Mzc1IDcgNS41IEMgNyAzLjU2MjUgOC41NjI1IDIgMTAuNSAyIFoiPjwvcGF0aD4KPC9zdmc+');
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin-left: 102%;
+    margin-top: -25px;
+}
+
+.img-top {
+    max-width: 1440px;
+    background-image: url('/img/โปรโมชั่น-Shinkanzen-sushi-บุฟเฟ่ต์.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
+}   
+.container{
+    max-width: 1440px;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 20%;
+}
