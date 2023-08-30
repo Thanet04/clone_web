@@ -56,8 +56,47 @@ body * {
     margin-top: 20%;
 }
 
+.liner{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #7EBEC5;
+    max-width: 900px;
+}
+
 .pomotion{
     margin-left: 100px;
     font-family: 'Roboto',sans-serif;
 }
 
+.food-img{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.food-img img{
+    width: 250px;
+    padding: 5px;
+}
+
+.food-img-low{
+    display: flex;
+    margin-left: 150px;
+}
+
+.food-img-low img{
+    padding: 5px;
+    width: 250px;
+}
+
+.liner-row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #666;
+    max-width: 800px;
+}
+
+.conection img{
+    
+    padding: 10px;
+}
