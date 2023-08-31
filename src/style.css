@@ -96,7 +96,97 @@ body * {
     max-width: 800px;
 }
 
-.conection img{
-    
+.conection img{    
     padding: 10px;
 }
+
+.container-right{
+    position: relative;
+    margin-top: -155%;
+    margin-left: 70%;
+}
+
+.card{
+    background: white;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+
+.card p{
+    font-size: 12px;
+    color: #666;
+}
+
+.card-img{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.food-1{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2023/06/Anonymous-Coffee-1080x675.jpg');
+    width: 100%;
+    background-position: center;
+}
+
+.food-2{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2023/05/messageImage_1684818152823-1080x646.jpg');
+    width: 100%;
+    height: 40%;
+    background-position: center;
+}
+
+.food-3{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2023/05/329148815_1260455871212513_2443773120364046067_n-1080x675.jpeg');
+    width: 100%;
+    height: 50%;
+    background-position: center;    
+}
+
+.food-4{    
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2023/05/messageImage_1684750539513-1080x638.jpg');
+    width: 100%;
+    height: 50%;
+    background-position: center;
+}
+
+.food-5{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2023/05/messageImage_1684743727145-1080x675.jpg');
+    width: 100%;
+    background-position: center;
+}
+
+.food-6{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2023/05/messageImage_1684738765928-1080x675.jpg');
+    width: 100%;
+    height: 50%;
+    background-position: center;
+}
+
+.food-7{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2022/09/Frans-1-1080x675.jpg');
+    width: 100%;
+    height: 50%;
+    background-position: center;
+}
+
+.food-8{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2023/05/messageImage_1684736801054-1080x675.jpg');
+    width: 100%;
+    background-position: center;
+}
+
+.food-9{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2023/05/343208511_234703505770037_32665915679240399_n-1080x675.jpeg');
+    width: 100%;
+    background-position: center;
+}
+
+.food-10{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2023/05/messageImage_1683611787869-1080x675.jpg');
+    width: 100%;
+    height: 50%;
+    background-position: center;
+}
+
