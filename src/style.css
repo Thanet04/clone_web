@@ -1,6 +1,6 @@
 
 body * {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -12,7 +12,7 @@ body * {
 }
 
 .navbar-menu{   
-    margin-right: 25%;
+    margin-right: 15%;
     text-align: right;
 }
 
@@ -40,7 +40,7 @@ body * {
 }
 
 .img-top {
-    max-width: 1440px;
+    width: 1440px;
     background-image: url('/img/โปรโมชั่น-Shinkanzen-sushi-บุฟเฟ่ต์.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ body * {
     opacity: 1;
 }   
 .container{
-    max-width: 1440px;
+    width: 1440px;
     border: 1px solid white;
     background-color: white;
     margin-top: 20%;
@@ -190,3 +190,78 @@ body * {
     background-position: center;
 }
 
+.footer-img{
+    width: 1440px;
+    border: 1px solid #f8f8f8;
+    background-color: #f8f8f8;  
+}
+
+.footer-img h1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.line-img{
+    display: flex;
+}
+
+.card-food{
+    padding: 40px;
+}
+
+.card-image{
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.card-food p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.restaurant-1{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2021/09/The-Marshal-Social-Cafe-400x284.png');
+    width: 100%;
+    background-position: center;
+}
+
+.restaurant-2{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2020/10/kraft4-400x284.jpg');
+    width: 100%;
+    background-position: center;
+}
+
+.restaurant-3{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2021/10/สายลม-บางปู-คาเฟ่เซรามิค-ร้านอาหารริมทะเล-400x284.jpg');
+    width: 100%;
+    background-position: center;
+}
+
+.restaurant-4{
+    background-image: url('https://www.kongaroi.com/wp-content/uploads/2020/01/2e4b78872530476f9e7446e911035e98-400x284.jpg');
+    width: 100%;
+    background-position: center;
+}
+
+.footer{
+    width: 1440px;
+    border: 1px solid #f8f8f8;
+    color: #565656;;
+    background-color: #222222;  
+}
+
+.Contact-channels{
+    margin-left: 70%;
+    margin-top: -70px;
+    margin-bottom: 100px;
+}
+
+.Contact-channels img{
+    padding: 10px;
+    width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
