@@ -1,4 +1,3 @@
-
 body * {
     max-width: 1440px;
     margin: 0;
@@ -11,9 +10,9 @@ body * {
     align-items: center;
 }
 
-.navbar-menu{   
+.navbar-menu{
+    display: block;
     margin-left: 25%;
-    text-align: right;  
 }
 
 .navbar-menu a {
@@ -34,7 +33,7 @@ body * {
     background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxNiAxNiIKc3R5bGU9ImZpbGw6I0ZGRkZGRjsiPgo8cGF0aCBkPSJNIDEwLjUgMSBDIDguMDE5NTMxIDEgNiAzLjAxOTUzMSA2IDUuNSBDIDYgNi41NTg1OTQgNi4zODI4MTMgNy41MjM0MzggNyA4LjI5Mjk2OSBMIDIuMDIzNDM4IDEzLjI2OTUzMSBMIDIuNzI2NTYzIDEzLjk4MDQ2OSBMIDcuNzA3MDMxIDkgQyA4LjQ3NjU2MyA5LjYxNzE4OCA5LjQ0MTQwNiAxMCAxMC41IDEwIEMgMTIuOTgwNDY5IDEwIDE1IDcuOTgwNDY5IDE1IDUuNSBDIDE1IDMuMDE5NTMxIDEyLjk4MDQ2OSAxIDEwLjUgMSBaIE0gMTAuNSAyIEMgMTIuNDM3NSAyIDE0IDMuNTYyNSAxNCA1LjUgQyAxNCA3LjQzNzUgMTIuNDM3NSA5IDEwLjUgOSBDIDguNTYyNSA5IDcgNy40Mzc1IDcgNS41IEMgNyAzLjU2MjUgOC41NjI1IDIgMTAuNSAyIFoiPjwvcGF0aD4KPC9zdmc+');
     width: 35px;
     height: 35px;
-    margin-right: 15%;
+    margin-right: auto;
     margin-top: 5px;
 }
 
@@ -47,10 +46,9 @@ body * {
     background-image: url('/img/โปรโมชั่น-Shinkanzen-sushi-บุฟเฟ่ต์.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     z-index: -1;
-    opacity: 1;
 }   
 .container{
     width: 1440px;
@@ -263,42 +261,28 @@ body * {
 .Contact-channels img{
     padding: 10px;
     width: 40px;
-}   
+}
 
-@media screen and (max-width: 1200px) {
-    .hamburger{
-        display: block;
-        cursor: pointer;
-        margin-right: 20%;
-    }
-    .hamburger .line{
-        width: 30px;
-        height: 3px;
-        background-color: #E56545;
-        margin: 6px 0;
-    }
-    .navbar-menu{
-        height: 0px;
-        max-width: 800px;
-        position: absolute;
-        top: 80px;
-        margin-left: 100px;
-        width: 1440px;
-        background: white;
-        transition: 0.2s;
-        overflow: hidden;
+@media screen and (max-width: 1140px) {
+    .navbar{
+        margin: auto;
     }
     .icon-search{
-        margin-right: -40%;
+        margin: auto;
     }
-    .navbar-menu.active{
-        height: 200px;
+    .navbar-menu {
+        margin-left: 10%;
     }
-    .navbar-menu a{
-        display: flex;
-        width: fit-content;
-        margin-left: 20px;
-        font-size: 18px;
-        transition: 0.5s;
+    .container{
+        width: auto;
     }
+    .container-right{
+        position: none;
+        margin-top: 0;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 960px){
+    
 }
