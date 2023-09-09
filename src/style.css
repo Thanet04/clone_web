@@ -1,22 +1,29 @@
 body * {
-    max-width: 1440px;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color:white;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-width: 100px;
 }
 
 .navbar-menu{
-    display: block;
-    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 .navbar-menu a {
-    padding: 5px;
+    margin-right: 20px;
     color: gray;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -26,15 +33,18 @@ body * {
     color: black; 
 }
 
+.search{
+    display: flex;
+    align-items: center;
+}
+
 .icon-search{
     background: linear-gradient(89.99deg,#D05047 -0.01%,#E56545 103.2%),#D05047;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
     border-radius: 5px;
     background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxNiAxNiIKc3R5bGU9ImZpbGw6I0ZGRkZGRjsiPgo8cGF0aCBkPSJNIDEwLjUgMSBDIDguMDE5NTMxIDEgNiAzLjAxOTUzMSA2IDUuNSBDIDYgNi41NTg1OTQgNi4zODI4MTMgNy41MjM0MzggNyA4LjI5Mjk2OSBMIDIuMDIzNDM4IDEzLjI2OTUzMSBMIDIuNzI2NTYzIDEzLjk4MDQ2OSBMIDcuNzA3MDMxIDkgQyA4LjQ3NjU2MyA5LjYxNzE4OCA5LjQ0MTQwNiAxMCAxMC41IDEwIEMgMTIuOTgwNDY5IDEwIDE1IDcuOTgwNDY5IDE1IDUuNSBDIDE1IDMuMDE5NTMxIDEyLjk4MDQ2OSAxIDEwLjUgMSBaIE0gMTAuNSAyIEMgMTIuNDM3NSAyIDE0IDMuNTYyNSAxNCA1LjUgQyAxNCA3LjQzNzUgMTIuNDM3NSA5IDEwLjUgOSBDIDguNTYyNSA5IDcgNy40Mzc1IDcgNS41IEMgNyAzLjU2MjUgOC41NjI1IDIgMTAuNSAyIFoiPjwvcGF0aD4KPC9zdmc+');
     width: 35px;
-    height: 35px;
-    margin-right: auto;
-    margin-top: 5px;
+    height: 35px;   
 }
 
 .hamburger{
@@ -42,16 +52,21 @@ body * {
 }
 
 .img-top {
-    width: 1440px;
+    width: 100%;
     background-image: url('/img/โปรโมชั่น-Shinkanzen-sushi-บุฟเฟ่ต์.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     position: fixed;
     z-index: -1;
+    
 }   
-.container{
-    width: 1440px;
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
     border: 1px solid white;
     background-color: white;
     margin-top: 20%;
@@ -64,30 +79,59 @@ body * {
     max-width: 900px;
 }
 
-.pomotion{
-    margin-left: 100px;
-    font-family: 'Roboto',sans-serif;
+.pomotion {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 60%;
+    padding: 20px;
+    margin-bottom: 50%;
+    font-family: 'Roboto', sans-serif;
 }
 
-.food-img{
-    display: flex;
+.img-row h2{
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 40%;
+    margin-bottom: 50px;
 }
 
-.food-img img{
-    width: 250px;
-    padding: 5px;
-}
-
-.food-img-low{
+.img-row img{
     display: flex;
-    margin-left: 150px;
+    margin-left: 25%;
+    margin-bottom: 50px;
 }
 
-.food-img-low img{
-    padding: 5px;
-    width: 250px;
+.img-row p{
+    margin-left: 10%;
+    color: #565656
+}
+
+.food {
+    text-align: center;
+    color: #565656;
+    margin-left: 10%;
+}
+
+.food-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.food-img img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.food-img-low {
+    display: flex;
+    justify-content: center;
+}
+
+.food-img-low img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
 }
 
 .liner-row{
@@ -99,12 +143,16 @@ body * {
 
 .conection img{    
     padding: 10px;
+    width: 35px;
 }
 
-.container-right{
-    position: relative;
-    margin-top: -155%;
-    margin-left: 70%;
+.conection{
+    margin-bottom: 30%;
+}
+.container-right {
+    width: 30%;
+    margin-top: 8%;
+    margin-bottom: -25%;
 }
 
 .card{
@@ -120,6 +168,7 @@ body * {
 }
 
 .card-img{
+    max-width: 100%;
     height: 150px;
     margin-bottom: 15px;
     background-size: cover;
@@ -192,18 +241,19 @@ body * {
 }
 
 .footer-img{
-    width: 1440px;
+    width: 100%;
     border: 1px solid #f8f8f8;
     background-color: #f8f8f8;  
 }
 
 .footer-img h1{
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .line-img{
     display: flex;
+    margin-left: 50px;
 }
 
 .card-food{
@@ -246,7 +296,7 @@ body * {
 }
 
 .footer{
-    width: 1440px;
+    width: 100%;
     border: 1px solid #f8f8f8;
     color: #565656;;
     background-color: #222222;  
@@ -263,26 +313,88 @@ body * {
     width: 40px;
 }
 
-@media screen and (max-width: 1140px) {
-    .navbar{
+@media screen and (min-width: 1001px) {
+   .logo {
+        margin-left: 100px;
+    }
+    .pomotion {
+        width: 60%;
         margin: auto;
     }
-    .icon-search{
-        margin: auto;
+    .container-right {
+        width: 30%;
     }
-    .navbar-menu {
-        margin-left: 10%;
-    }
-    .container{
-        width: auto;
-    }
-    .container-right{
-        position: none;
-        margin-top: 0;
+    .food {
         margin-left: 10%;
     }
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pomotion {
+        width: 60%;
+    }
+    .container-right {
+        width: 30%;
+        margin-top: -60%;
+        margin-bottom: 30%;
+    }
+    .img-row{
+        margin: auto;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        margin-right: 15%;
+    }
+    .icon-search{
+        display: flex;
+        align-items: center;         
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background-color: #E56545;
+        margin: 6px 0;
+    }
+    .navbar-menu{
+        height: 0px;
+        max-width: 600px;
+        position: absolute;
+        top: 80px;
+        margin-left: 100px;
+        width: 768px;
+        background: white;
+        transition: 0.2s;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-menu.active{
+        height: 200px;
+    }
+    .navbar-menu a{
+        display: flex;
+        width: fit-content;
+        margin-left: 20px;
+        padding: 5px;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+    .img-row{
+        margin-left: -30%;
+    }
+    .img-row p{
+        margin-left: 20%;
+    }
+    .conection img{
+        width: 50px;
+    }
     
+
 }
+
